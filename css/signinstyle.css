@@ -1,0 +1,106 @@
+html {
+	position: relative;
+}
+
+body {
+	margin: 0;
+	font-size: 16px 18px;
+	font-family: arial, helvetica, sans-serif;
+	scroll-behavior: smooth;
+	background-color: #fff;
+}
+
+.header {
+	position: fixed;
+	background-color: #172a3a;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 43px;
+	resize: none;
+	z-index: 4;
+}
+
+.header h3 a {
+	position: absolute;
+	padding: 0 25px;
+	margin: -15px 0;
+	color: #eef942;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.signin a {
+	position: relative;
+	top: -7px;
+	padding: 0 25px;
+	float: right;
+	text-decoration: none;
+	color: #fff;
+	right: 6%;
+}
+
+.signin a:hover {
+	color: #eef942;
+}
+
+.signup a {
+	position: relative;
+	background-color: #00bfff;
+	top: -14px;
+	border: none;
+	border-radius: 6px;
+	font-size: 13px;
+	cursor: pointer;
+	padding: 6px 8px;
+	font-weight: bold;
+	float: right;
+	left: 70px;
+	right: 0;
+	text-decoration: none;
+	color: #fff;
+}
+
+.signup a:hover {
+	background-color: #009acd;
+	color: #eee;
+} 
+
+.navigation ul {
+	list-style-type: none;
+	text-align: center;
+	margin-top: -16px; 
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation li a {
+	left: -80px;	
+	position: relative;
+	font-family: helvetica;
+	font-weight: bold;
+	font-family: calibri, sans-serif;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 0 20px;
+	color: #fff;
+}
+
+.navigation	input[type=search] {
+	border: none;
+	background-color: #eee;
+	width: 4.5in;
+	padding: 8px 10px;
+	border-radius: 6px;
+	opacity: 0.8;
+	margin-right: -200px;
+}
+
+.navigation li a:hover {
+	color: #eef942;
+}

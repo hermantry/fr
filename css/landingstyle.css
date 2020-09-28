@@ -1,0 +1,330 @@
+html {
+	position: relative;
+}
+
+body {
+	margin: 0;
+	font-size: 16px 18px;
+	font-family: arial, helvetica, sans-serif;
+	scroll-behavior: smooth;
+	background-color: #fff;
+}
+
+.header {
+	position: fixed;
+	background-color: #172a3a;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 43px;
+	resize: none;
+	z-index: 4;
+}
+
+.header h3 a {
+	position: absolute;
+	padding: 0 25px;
+	margin: -15px 0;
+	color: #eef942;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.signin a {
+	position: relative;
+	top: -7px;
+	padding: 0 25px;
+	float: right;
+	text-decoration: none;
+	color: #fff;
+	right: 6%;
+}
+/* Space Cherry (#990011FF) and White (#FCF6F5FF) Black (#2D2926FF) and Cherry Tomato (#E94B3CFF) 
+ * Royal Purple (#603F83FF) and Ice Flow (#C7D3D4FF) Island Green (#2BAE66FF) and White (#FCF6F5FF)
+ * Copper Coin (#B1624EFF) and Aged Copper (#5CC8D7FF) */
+.signin a:hover {
+	color: #eef942;
+}
+
+.signup a {
+	position: relative;
+	background-color: #00bfff;
+	top: -14px;
+	border: none;
+	border-radius: 6px;
+	font-size: 13px;
+	cursor: pointer;
+	padding: 6px 8px;
+	font-weight: bold;
+	float: right;
+	left: 70px;
+	right: 0;
+	text-decoration: none;
+	color: #fff;
+}
+
+.signup a:hover {
+	background-color: #009acd;
+	color: #eee;
+} 
+
+.navigation ul {
+	list-style-type: none;
+	text-align: center;
+	margin-top: -16px; 
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation li a {
+	left: -80px;	
+	position: relative;
+	font-family: helvetica;
+	font-weight: bold;
+	font-family: calibri, sans-serif;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 0 20px;
+	color: #fff;
+}
+
+.navigation	input[type=search] {
+	border: none;
+	background-color: #eee;
+	width: 4.5in;
+	padding: 8px 10px;
+	border-radius: 6px;
+	opacity: 0.8;
+	margin-right: -200px;
+}
+
+.navigation li a:hover {
+	color: #eef942;
+}
+
+.hero-image {
+	background-image: url(../img/hero11.jpg);
+	width: 100%;
+	height: 612px;
+	resize: none;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat; 
+	margin: 43px 0 0 0;
+	border-top: 2px solid #eef942;
+}
+
+.hero-text h1 {
+	text-align: left;
+	position: absolute;
+	top: 77%;
+	left: 11.5%;
+	transform: translate(-50%, -50%); 
+	color: rgb(225, 225, 255, 0.7);
+	font-variant: small-caps;
+	font-size: 50px;
+	text-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+	font-family: calibri;
+	letter-spacing: 2px;
+}
+
+.hero-text h1:hover {
+	color: #fff;
+}
+
+.hero-text h3 a {
+	top: 40%;
+	left: 43%;
+	position: absolute;
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 6px 40px;
+	text-decoration: none;
+}
+
+.hero-text h3 a:hover {
+	border-width: 4px solid #fff;
+}
+
+.main {
+	margin: 328.5px 0;
+}
+
+.main h3 {
+	font-style: italic;
+	font-weight: initial;
+}
+
+.main h3,p {
+	text-align: center;
+	color: #808080;
+}
+
+.main p {
+	padding:0 20%;
+	line-height: 1.5;
+	font-style: italic;
+}
+
+.footer {
+	position: relative;
+	height: 614px;
+	background-color: #000;
+	padding: 0 25px;
+	margin-bottom: -60px;
+	font-family: tahoma;
+}
+
+.footer table {
+	position: relative;
+	top: -20px;
+}
+
+.footer .one {
+	width: 400px;
+}
+
+.footer tr td h3 {
+	margin-top: -15px;
+	color: #eef942;
+	font-size: 50px;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+}
+
+.footer .one p {
+	margin-top: -20px;
+	text-align: left;
+	line-height: 1.5;
+	color: #fff;
+	font-size: 14px;
+}
+
+.footer .one span {
+	font-weight: bold;
+}
+
+.footer .two {
+	width: 260px;
+	padding-left: 50px;
+	color: #fff;
+}
+
+.footer .two h4 {
+	margin-top: 58px;
+	letter-spacing: 2px;
+}
+
+.footer .two a, .three a {
+	display: block;
+	color: #fff;
+	line-height: 1.7;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.footer .two a:hover, .footer .three a:hover {
+	color: #808080;
+}
+
+.footer .three {
+	width: 200px;
+	color: #fff;
+}
+
+.footer .three h4 {
+	margin-top: -10px;
+	letter-spacing: 2px;
+}
+
+.footer .four {
+	position: relative;
+	top: 45px;
+}
+
+.footer .four, .four p {
+	color: #fff;
+	text-align: left;
+}
+
+.four h4 {
+	margin-top: -45px;
+	letter-spacing: 1px;	
+}
+
+.footer .four span {
+	color: #eef942;
+}
+
+.four input[type=email] {
+	margin-top: 10px;
+	border: none;
+	border-radius: 4px;
+	padding: 7px 10px;
+	margin-bottom: 20px;
+	width: 350px;
+}
+
+.four a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.four .four-man {
+	margin-right: 1.67in;
+	border: 2px solid #fff;
+	padding: 4px 32px;
+}
+
+.four .four-woman {
+	border: 2px solid #fff;
+	padding: 4px 20px;
+}
+
+.four .four-man:hover, .four .four-woman:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+
+.footer-end {
+	margin: 1.8in 0 0 0;
+}
+
+.footer-end, .footer-end a {
+	margin: 2.5in 0 0 0;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* ul {
+	list-style-type: none;
+	width: 100%;
+	background-color: #172a3a;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	position: fixed;
+	resize: none;
+	height: 35px;
+}
+
+li a {
+	display: block;
+	color: #f44040;
+	text-decoration: none;
+	 padding: 14px 25px; 
+	font-size: 30px;
+	letter-spacing: 4px;
+}
+ */
